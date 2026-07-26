@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Disallow admin access
+Disallow: /admin/
+Disallow: /api/
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /user/
+
+# Disallow certain file types
+Disallow: /*.php$
+Disallow: /*.sql$
+Disallow: /*.log$
+
+# Sitemap
+Sitemap: https://rocksteady.com/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
